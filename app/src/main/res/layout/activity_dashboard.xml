@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_android_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_toEndOf="@+id/imgProfile"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Tyas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/txtgaris"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtUsername"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+        android:layout_height="3dp"
+        android:background="#FF000000"/>
+
+
+
+    <ImageView
+        android:id="@+id/txtgambar1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtgaris"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/layar"
+        android:padding="10dp"
+        android:src="@drawable/layerlist1" />
+
+    <ImageView
+        android:id="@+id/txtgambar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtgambar1"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="305dp"
+        android:background="@drawable/layar"
+        android:padding="10dp"
+        android:src="@drawable/layerlist1" />
+
+    <ImageView
+        android:id="@+id/txtgambar3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtgambar2"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/layar"
+        android:padding="10dp"
+        android:layout_marginTop="-241dp"
+        android:layout_marginEnd="52dp"
+        android:src="@drawable/layerlist1" />
+
+    <ImageView
+        android:id="@+id/txtgambar4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtgambar3"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/layar"
+        android:padding="10dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/layerlist1" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_below="@+id/txtgambar4"
+        android:text="5190311102-HAYOENING TYASIH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"/>
+
+
+</RelativeLayout>
